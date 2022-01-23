@@ -10,7 +10,9 @@ if __name__ == '__main__':
             board_array = recognize_board_game(game_hwnd)
         except:
             cv2.destroyAllWindows()
-            print('App was closed or collapsed')
+            print('The app was closed or collapsed')
             break
 
     cv2.destroyAllWindows()
+
+input("Program is finished, press ENTER")

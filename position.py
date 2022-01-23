@@ -6,7 +6,7 @@ from tetrominoes import START_POS_TETROMINOES, TETROMINOES_SHAPES
 import criteria
 import recognition
 
-KEY_DOWN_DELAY = 0.04
+KEY_DOWN_DELAY = 0.05
 
 
 class PredictedBoard:
@@ -95,17 +95,17 @@ def move(game_hwnd, position, rotation):
 
     for _ in range(rotation):
         win32api.SendMessage(game_hwnd, win32con.WM_KEYDOWN, ord('A'))
-        # win32api.SendMessage(game_hwnd, win32con.WM_KEYUP, ord('A'))
+        win32api.SendMessage(game_hwnd, win32con.WM_KEYUP, ord('A'))
         time.sleep(KEY_DOWN_DELAY)
 
     for _ in range(abs(position)):
         if position < 0:
             win32api.SendMessage(game_hwnd, win32con.WM_KEYDOWN, win32con.VK_LEFT)
-            # win32api.SendMessage(game_hwnd, win32con.WM_KEYUP, win32con.VK_LEFT)
+            win32api.SendMessage(game_hwnd, win32con.WM_KEYUP, win32con.VK_LEFT)
         else:
             win32api.SendMessage(game_hwnd, win32con.WM_KEYDOWN, win32con.VK_RIGHT)
-            # win32api.SendMessage(game_hwnd, win32con.WM_KEYUP, win32con.VK_RIGHT)
+            win32api.SendMessage(game_hwnd, win32con.WM_KEYUP, win32con.VK_RIGHT)
         time.sleep(KEY_DOWN_DELAY)
     win32api.SendMessage(game_hwnd, win32con.WM_KEYDOWN, win32con.VK_SPACE)
-    # win32api.SendMessage(game_hwnd, win32con.WM_KEYUP, win32con.VK_SPACE)
+    win32api.SendMessage(game_hwnd, win32con.WM_KEYUP, win32con.VK_SPACE)
     time.sleep(KEY_DOWN_DELAY)

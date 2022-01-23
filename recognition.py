@@ -44,7 +44,7 @@ def find_game_window():
                 return hwnd
 
         time.sleep(1)
-        print('Please, open the window app', end='\r')
+        print('Please, open the app', end='\r')
 
 
 def take_screenshot(position):
