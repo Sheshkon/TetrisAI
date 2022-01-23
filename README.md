@@ -35,7 +35,7 @@ Work only on Windows OS
 
 ![alt text](https://github.com/Sheshkon/TetrisAI/blob/main/src/readme%20file/options.png?raw=true)
 
-- Run `bot.exe' 
+- Run `bot.exe`
 - Start new Game
 - Enjoy:)
 
