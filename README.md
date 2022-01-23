@@ -1,8 +1,8 @@
 # Tetris AI
 Tetris AI Bot using computer vision to play game automatically
-* `bot.py` - the main application.
+* `bot.py` - main application.
 * `criteria.py` - AI part, includes fitness function and attributes.
-* `recognition.py` - the Computer Vision part.
+* `recognition.py` - Computer Vision part.
 * `tetromino.py` - some information about tetrominoes (shape, color, start position).
 
 
@@ -20,7 +20,7 @@ When all information about the board is known, AI determines all possible positi
 
 #### Fitness function parameters:
 - **Height** - maximum height of the grid.
-- **Aggregate Height** - the sum of the height of each column
+- **Aggregate Height** - the sum of the height of each column.
 - **Number of lines cleared** - the number of complete lines in the grid.
 - **Number of holes** - empty space such that there is at least one tile in the same column above.
 - **Bumpiness** - sum of the difference between heights of adjacent pairs of columns.
