@@ -27,6 +27,9 @@ When all information about the board is known, AI determines all possible positi
 ## How to try
 Work only on Windows OS
 - Download the game from https://github.com/vitaliysheshkoff/Tetris-Multiplayer/tree/resize_network_multiplayer_branch/out/artifacts/Tetris_Multiplayer_jar
+
+![alt text](https://github.com/Sheshkon/TetrisAI/blob/main/screnshots/game.png?raw=true)
+
 - Download `bot.exe` from `dist` folder
 - Configurate game options 
 
