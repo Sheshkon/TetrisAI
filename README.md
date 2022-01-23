@@ -24,3 +24,14 @@ When all information about the board is known, AI determines all possible positi
 - **Number of lines cleared** - the number of complete lines in the grid.
 - **Number of holes** - empty space such that there is at least one tile in the same column above.
 - **Bumpiness** - sum of the difference between heights of adjacent pairs of columns.
+## How to try
+Work only on Windows OS
+- Download the game from https://github.com/vitaliysheshkoff/Tetris-Multiplayer/tree/resize_network_multiplayer_branch/out/artifacts/Tetris_Multiplayer_jar
+- Download `bot.exe` from `dist` folder
+- Configurate game options 
+
+![alt text](https://github.com/Sheshkon/TetrisAI/blob/main/screnshots/options.png?raw=true)
+
+- Run `bot.exe' 
+- Start new Game
+- Enjoy:)
