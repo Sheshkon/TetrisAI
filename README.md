@@ -35,4 +35,3 @@ Work only on Windows OS
 - Run `bot.exe' 
 - Start new Game
 - Enjoy:)
-- 
