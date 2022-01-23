@@ -7,7 +7,7 @@ Tetris AI Bot using computer vision to play game automatically
 
 
 [![Watch the video](https://www.youtube.com/s/desktop/40777624/img/favicon_96x96.png)](https://www.youtube.com/watch?v=PIeq2S0EXQ0) 
-*click to watch the demo*
+*click on the picture to see the demo*
 ## Computer Vision
 
 How it works? 
