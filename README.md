@@ -29,7 +29,9 @@ Work only on Windows OS
 - Download the game from https://github.com/vitaliysheshkoff/Tetris-Multiplayer/tree/resize_network_multiplayer_branch/out/artifacts/Tetris_Multiplayer_jar
 - Download `bot.exe` from `dist` folder
 - Configurate game options 
+
 ![alt text](https://github.com/Sheshkon/TetrisAI/blob/main/screnshots/options.png?raw=true)
+
 - Run `bot.exe' 
 - Start new Game
 - Enjoy:)
