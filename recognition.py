@@ -8,7 +8,7 @@ import win32gui
 from position import get_all_variations, get_best_pos, move
 from tetrominoes import TETROMINOES_BRG
 
-APP_NAME = 'tetris'
+APP_NAME = 'TETRIS'
 windows_list = []
 
 
